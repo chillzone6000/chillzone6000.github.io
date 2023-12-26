@@ -16,7 +16,29 @@ body{
     }
   }
 
+a:link {
+  color: rgb(208, 147, 235);
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: rgb(213, 203, 218);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(135, 122, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
 
 
 h1{
@@ -57,7 +79,7 @@ a{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 20%;
 }
 
 .imagecenter2{
