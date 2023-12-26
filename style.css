@@ -60,6 +60,13 @@ a{
     width: 25%;
 }
 
+.imagecenter2{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .description{
     font-family: Helvetica;
