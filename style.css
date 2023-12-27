@@ -1,11 +1,37 @@
-
-
+/*custom font from apple (DONT TELL THEM LMFAO)*/
+@font-face { 
+  font-family: SFdisplay-black; src: url('fonts/SFUIDisplay-Black.otf'); 
+}
+@font-face{
+  font-family: SFdisplay-bold; src: url('fonts/SFUIDisplay-Bold.ttf');
+}
+@font-face{
+  font-family: SFdisplay-heavy; src: url('fonts/SFUIDisplay-Heavy.otf'); 
+}
+@font-face{
+  font-family: SFdisplay-light; src: url('fonts/SFUIDisplay-Light.ttf');
+}
+@font-face{
+  font-family: SFdisplay-medium; src: url('fonts/SFUIDisplay-Medium.otf');
+}
+@font-face{
+  font-family: SFdisplay-regular; src: url('fonts/SFUIDisplay-Regular.otf');
+}
+@font-face{
+  font-family: SFdisplay-semibold; src: url('fonts/SFUIDisplay-Semibold.otf');
+}
+@font-face{
+  font-family: SFdisplay-thin; src: url('fonts/SFUIDisplay-Thin.otf');
+}
+@font-face{
+  font-family: SFdisplay-ultralight; src: url('fonts/SFUIDisplay-Ultralight.otf');
+}
 
 
 body{
     background: linear-gradient(215deg,#0be718,#7f0be7,#0f0915);
     background-size: 180% 180%;
-    animation: gradient-animation 3s ease infinite;
+    animation: gradient-animation 3s ease-in-out infinite;
   }
 
 
@@ -49,19 +75,20 @@ a:visited {
 
 
 h1{
-    font-family: Helvetica;
+    font-family: 'SFdisplay-black';
     text-align: center;
+    margin-top: 0;
     margin-bottom: 0;
-    font-size: 200;
-    font-style: oblique;
+    font-size: 175;
+    font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
 h2{
-    font-family: Helvetica;
+    font-family: 'SFdisplay-ultralight';
     text-align: center;
     margin-top: 0;
-    font-style: italic;
+    margin-bottom: 0;
     color: rgb(255, 255, 255);
 }
 
@@ -71,23 +98,22 @@ a{
 
 
 .contentsa{
-  font-family: Helvetica;
+  font-family: 'SFdisplay-medium';
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10%;
-  font-style: oblique;
   font-weight: bold;
   font-size: 50;
   color: rgb(255, 255, 255);
 }
 
 .contentsb{
-  font-family: Helvetica;
+  font-family: 'SFdisplay-light';
   text-align: left;
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: 10%;
-  font-style: oblique;
   font-weight: bold;
   font-size: 25;
   color: rgb(255, 255, 255);
@@ -123,7 +149,7 @@ a{
 
 
 .description{
-    font-family: Helvetica;
+    font-family: 'SFdisplay-regular';
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin-left: 10%;
