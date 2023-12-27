@@ -1,8 +1,15 @@
+
+
+
+
 body{
     background: linear-gradient(215deg,#0be718,#7f0be7,#0f0915);
     background-size: 180% 180%;
     animation: gradient-animation 3s ease infinite;
   }
+
+
+
   
   @keyframes gradient-animation {
     0% {
@@ -104,6 +111,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    
 }
 
 .imagecenter2{
@@ -118,7 +126,7 @@ a{
     font-family: Helvetica;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 /* this is a comment*/
