@@ -114,13 +114,32 @@ h2{
 
 
 .h2butbigger{
-    font-family: Helvetica;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-style: italic;
-    color: rgb(255, 255, 255);
-    font-size: 1000%;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  font-size: 1000%;
+}
+
+.buttonbig{
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1000%;
+  border-radius: 10px;
+}
+.buttonbig:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.buttonbig:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .imagetitle{
