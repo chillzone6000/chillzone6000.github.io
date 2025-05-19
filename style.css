@@ -1,4 +1,4 @@
-h1{
+.underconstruction{
     font-family: Helvetica;
     font-weight: bolder;
     text-align: center;
@@ -7,6 +7,7 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     border: 3px solid rgb(255, 112, 29);
+    background: white;
 }
 
 .opengifpleasechangethislaterpleasegod{
@@ -20,7 +21,7 @@ body{
     margin: 0;
     height: 100vh;
     cursor: url(images/soytancursor.png), auto;
-    /* background-color: #E1B09E; EDIT THE GIF TO TRANSPARENT, I WANT THIS BG COLOR!!!!!!!!!! */
+    background-image: url(images/RENARD.png);
 }
 
 .cursor{
